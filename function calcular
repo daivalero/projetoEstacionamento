@@ -1,0 +1,11 @@
+<?php
+namespace Projeto\ProjetoEstacionamento\PHP;
+
+function Fcalcular($entrada) {
+    if ($entrada > 60) {
+        return 10 * $entrada;
+    } else {
+        return 5 * $entrada;
+    }
+}
+?>
